@@ -1,0 +1,36 @@
+.balance-report{
+    text-align: center;
+    background-color: lightgoldenrodyellow;
+    padding: 5px;
+}
+
+.report-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: linen;
+    padding: 15px;
+    margin: 15px 0;
+}
+
+.report-container>div{
+    flex: 1;
+    text-align: center;
+}
+
+.report-container>div:first-of-type{
+    border-right: solid 3px rgba(124, 33, 33, 0.466);
+}
+
+.report{
+    font-size: 26px;
+    letter-spacing: 1px;
+    margin: 5px 0;
+}
+
+.income-report{
+    color: #2ecc71
+}
+
+.expense-report{
+    color: red
+}
